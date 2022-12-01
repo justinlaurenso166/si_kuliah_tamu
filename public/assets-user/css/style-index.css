@@ -1,0 +1,47 @@
+
+.carousel{
+    margin-top: 70px;
+}
+
+
+.carousel-img{
+    max-width: 1600px;
+    max-height: 740px;
+}
+
+.introduction{
+    text-align: justify;
+    margin-top: 20px;
+}
+
+h3{
+    letter-spacing: 2px;
+}
+
+.profile {
+    flex-basis: 250px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.description-profile{
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.profile .profile-img {
+    height: 128px;
+    width: 128px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 400ms;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    margin-bottom: 10px;
+}
+
+.profile:hover .profile-img {
+    filter: grayscale(0);
+}

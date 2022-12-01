@@ -1,0 +1,45 @@
+.button-back-to-article{
+    display: flex;
+    justify-content : center;
+    align-items: center;
+}
+
+.button-for-back {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    border: 4px solid transparent;
+    background :
+        linear-gradient(#FEF6E9 0 0) padding-box, /*this is your grey background*/
+        linear-gradient(180deg, rgba(242,110,33,1) 0%, rgba(249,161,33,1) 100%) border-box;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-weight: 600;
+}
+
+
+@media(min-width: 801px){
+    .pembicara-photo{
+        width: 100%;
+        min-width: 300px;
+        min-height: 300px;
+        max-width: 500px;
+        max-height: 500px;
+        min-width: none;
+        margin-bottom: 20px;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+}
+
+@media(max-width: 800px){
+    .pembicara-photo{
+        width: 100%;
+        height: 300px;
+        min-width: none;
+        margin-bottom: 20px;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+}

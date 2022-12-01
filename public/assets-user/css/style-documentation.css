@@ -1,0 +1,71 @@
+.judul {
+    color: black ;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    height: 5px;
+    letter-spacing: 2px;
+    margin-top: 140px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.search-area{
+    margin-top: 140px;
+}
+
+.search-documentation {
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 20px;
+}
+
+.design-kt{
+    font-weight: 800px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.design-kt:hover{
+    color: orange;
+}
+
+@media(min-width: 801px){
+    .documentation-photo{
+        width: 90%;
+        height: 300px;
+        min-width: none;
+        margin-bottom: 20px;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+
+    .search-area{
+        margin-right: 50px;
+    }
+
+    .top-documentation{
+        display: flex;
+        justify-content: space-between;
+        margin: 100px 0 40px 0;
+    }
+}
+
+@media(max-width: 800px){
+    .documentation-photo{
+        width: 100%;
+        height: 300px;
+        min-width: none;
+        margin-bottom: 20px;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+
+    .top-documentation{
+        margin: 0 0 40px 0;
+    }
+    
+    .search-area{
+        margin-top: 50px;
+        margin-right: 0;
+    }
+}

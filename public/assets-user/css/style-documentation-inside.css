@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.judul {
+    color: black ;
+    font-size: xx-large;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    font: optional;
+    height: 5px;
+    letter-spacing: 3px;
+}
+
+.top-dokumentasi{
+    display: flex;
+    justify-content: space-between;
+    margin: 140px 0 40px 0;
+}
+
+.jenis-kuliah-tamu{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black ;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    font: optional;
+}
+
+.image-source-link {
+    color: #98C3D1;
+}
+
+.image-source-link {
+	color: orange;
+}
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+	opacity: 0;
+	backface-visibility: hidden;
+	/* ideally, transition speed should match zoom duration */
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+		opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+		opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container,
+.mfp-with-zoom.mfp-removing.mfp-bg {
+	opacity: 0;
+}
+
+.foto-foto{
+    display: flex;
+}
+
+.foto-kuliahtamu{
+    width: 200px;
+    height: 300px;
+    min-width: none;
+    margin-bottom: 20px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.foto-dokumentasi{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.button-download, .button-back{
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.back{
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 20px;
+    margin-top: 200px;
+    justify-content: center;
+}
+
+.button-back-to-article{
+    display: flex;
+    justify-content : center;
+    align-items: center;
+}
+
+.button-for-back {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    border: 4px solid transparent;
+    background :
+        linear-gradient(#FEF6E9 0 0) padding-box, /*this is your grey background*/
+        linear-gradient(180deg, rgba(242,110,33,1) 0%, rgba(249,161,33,1) 100%) border-box;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-weight: 600;
+}

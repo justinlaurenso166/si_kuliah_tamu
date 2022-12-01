@@ -1,0 +1,62 @@
+.tanggal, .judul{
+    font-weight: 600;
+    color: black;
+}
+
+.tanggal{
+    margin-top: 10px;
+}
+
+.judul {
+    font-size : 30px;
+}
+
+.isi{
+    text-align: justify;
+}
+
+.search-article{
+    border-radius: 20px;
+}
+
+@media(min-width: 801px){
+    .top-article{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .article-detail{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .article-photo{
+        width: 240px;
+        height: 12rem;
+        object-fit: cover;
+        border-radius: 20px;
+        float : left;
+        padding : 10px;
+        margin-right : 20px;
+    }
+}
+
+@media(max-width: 800px){
+    .article-detail{
+        margin-top: 10px;
+    }
+
+    .search-area{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .article-photo{
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+        float : left;
+        padding : 10px;
+        margin-right : 20px;
+    }
+}

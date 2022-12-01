@@ -1,0 +1,110 @@
+body {
+    background-image: url(../img/pradita-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#form{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-spacer{
+    width: 640px;
+}
+
+.form{
+    max-width: 600px;
+    min-width: 300px;
+    padding: 15px 35px 45px;
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.1);  
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px rgba(87, 87, 87, 0.5);
+
+}
+
+.info{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-pradita{
+    max-width: 200px;
+    margin-top:-30px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    padding: 30px 0 30px 0;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.inner-form{
+    padding: 0 40px 0 40px;
+    font-size: 14px;
+}
+
+.forgot-pass a{
+    float: right;
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.forgot-pass a:hover{
+    background: linear-gradient(90deg, rgba(242,110,33,1) 0%, rgba(249,161,33,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+
+.another-page{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.another-page a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.another-page a:hover{
+    background: linear-gradient(90deg, rgba(242,110,33,1) 0%, rgba(249,161,33,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+
+.login{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
