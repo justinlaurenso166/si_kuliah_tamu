@@ -33,10 +33,11 @@ use App\Http\Controllers\ProfileMahasiswaUserController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
+Route::get('/',[ LoginController::class, 'index'])->name('login.index')->middleware('guest');
 Route::get('/login',[ LoginController::class, 'index'])->name('login.index')->middleware('guest');
 Route::post('/login', [LoginController::class, 'authenticate'])->name('login.authenticate')->middleware('guest');
 Route::get('/logout', [LoginController::class, 'logout'])->name('logout')->middleware('auth');
